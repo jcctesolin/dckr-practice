@@ -56,4 +56,4 @@ def list_books():
     return render_template('livros.html', books=books)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
